@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 COPY app /app/app
 COPY sql /app/sql
 COPY scripts /app/scripts
+COPY certs /app/certs
 COPY README.md /app/README.md
 
 EXPOSE 8080
